@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site de Celulares</title>
+  <link rel="stylesheet" href="/Celular/Atividade/CSS/STYLE.CSS">
+</head>
+<body>
+  <header>
+    <h1>Guia de Celulares</h1>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#tipos">Tipos de Celulares</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#video">Vídeo</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section id="sobre" class="descricao">
+    <h2>Tudo sobre Celulares: Vantagens e Desvantagens</h2>
+    <p>Descubra os melhores celulares do mercado! Nosso site traz análises de diferentes modelos, comparando vantagens e desvantagens de smartphones Android, iPhones e opções mais acessíveis. Aqui, você encontra informações sobre desempenho, câmera, bateria e muito mais para ajudar na sua escolha de compra.</p>
+  </section>
+
+  <section id="galeria">
+    <h2>Galeria de Celulares</h2>
+    <div class="galeria">
+      <img src="/Celular/Atividade/IMG/android.jpg" alt="Imagem de Android">
+      <h2>Android</h2>
+      <img src="/Celular/Atividade/IMG/motorola.jpg" alt="Imagem de Motorola">
+      <h2>Motorola</h2>
+      <img src="/Celular/Atividade/IMG/iphone.jpg" alt="Imagem de iPhone">
+      <h2>Iphone</h2>
+    </div>
+  </section>
+
+  <section id="video">
+    <h2>Assista ao vídeo sobre os 10 melhores celulares do mundo</h2>
+    <div class="video-container">
+      <video controls width="100%">
+        <source src="/Celular/Atividade/IMG/Os 10 Melhores celulares do mundo.mp4" type="video/mp4">
+        Seu navegador não suporta o elemento <code>video</code>.
+      </video>
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Tabela de celulares mais comprados</h2>
+    <table border="1" style="width:100%; text-align:left; border-collapse:collapse; margin: 0 auto;">
+      <tr style="background-color:#2c3e50; color:white;">
+        <th>Posição</th>
+        <th>Modelo</th>
+        <th>Fabricante</th>
+        <th>Sistema Operacional</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>iPhone 13</td>
+        <td>Apple</td>
+        <td>iOS</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Samsung Galaxy S22</td>
+        <td>Samsung</td>
+        <td>Android</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Xiaomi Redmi Note 11</td>
+        <td>Xiaomi</td>
+        <td>Android</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Motorola Moto G82</td>
+        <td>Motorola</td>
+        <td>Android</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Realme 9 Pro</td>
+        <td>Realme</td>
+        <td>Android</td>
+      </tr>
+    </table>
+
+    <div class="listas-celulares">
+      <h3>Principais categorias de celulares:</h3>
+      <ul>
+        <li>Smartphones</li>
+        <li>Celulares Básicos</li>
+        <li>Celulares para Jogos</li>
+        <li>Celulares com Foco em Câmera</li>
+        <li>Modelos Dobráveis</li>
+      </ul>
+
+      <h3>Os 3 celulares mais recomendados:</h3>
+      <ol>
+        <li>iPhone 13</li>
+        <li>Samsung Galaxy S22</li>
+        <li>Xiaomi Redmi Note 11</li>
+      </ol>
+    </div>
+
+    <div class="formulario">
+      <h3>Qual celular você usa?</h3>
+      <form action="#" method="post">
+        <label for="celular">Escolha seu celular:</label><br><br>
+        <input type="radio" id="iphone" name="celular" value="iPhone">
+        <label for="iphone">iPhone</label><br>
+        
+        <input type="radio" id="android" name="celular" value="Android">
+        <label for="android">Android</label><br>
+        
+        <input type="radio" id="motorola" name="celular" value="Motorola">
+        <label for="motorola">Motorola</label><br><br>
+        
+        <input type="submit" value="Enviar">
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>© Direitos de Samuel Santana 2024 Guia de Celulares</p>
+  </footer>
+</body>
+</html>
