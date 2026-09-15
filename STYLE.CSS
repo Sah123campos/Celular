@@ -64,15 +64,17 @@ h1 em, h2 span { color: var(--orange); font-style: normal; }
 .hero-visual img {
     height: auto;
     left: 50%;
-    max-height: 78%;
-    max-width: 70%;
+    max-height: 68%;
+    max-width: 62%;
     object-fit: contain;
-    padding: 0;
+    padding: .65rem;
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: min(60%, 340px);
-    mix-blend-mode: multiply;
+    width: min(52%, 290px);
+    background: #fff;
+    box-shadow: 0 18px 35px rgba(23, 33, 43, .16);
+    filter: contrast(1.08) saturate(1.06);
 }
 .visual-caption { color: var(--white); display: flex; font-size: .8rem; justify-content: space-between; left: 1.5rem; position: absolute; right: 1.5rem; top: 1.5rem; z-index: 1; }
 .floating-note { background: var(--orange); bottom: 1.5rem; color: var(--white); display: flex; flex-direction: column; max-width: calc(100% - 3rem); padding: 1rem 1.2rem; position: absolute; right: 1.5rem; }
@@ -134,7 +136,7 @@ footer p { color: #aeb9bf; font-size: .8rem; }
     .hero, .video-layout, .survey { grid-template-columns: 1fr; }
     .hero-copy { padding: 5rem 6vw; }
     .hero-visual { min-height: 380px; }
-    .hero-visual img { max-height: 72%; max-width: 72%; width: min(55%, 240px); }
+    .hero-visual img { max-height: 68%; max-width: 64%; width: min(52%, 220px); }
     .intro { grid-template-columns: 1fr; }
     .metrics { grid-column: 1; flex-wrap: wrap; }
     .section-heading { align-items: start; flex-direction: column; gap: 1.5rem; }
